@@ -2,10 +2,12 @@ Finished;
 Todo APP step 2.
 https://www.meteor.com/tutorials/blaze/templates
 
+____________________________________________________________________________________________________________________________________
 Todo App step 3.
 I'm trying out the Atom Text editor for this:
 https://www.meteor.com/tutorials/blaze/collections
 
+____________________________________________________________________________________________________________________________________
 Todo App step 4:
 I really like the Atom text Editor I just wish it was more like Sublime when
 it comes to editing php files.
@@ -16,7 +18,9 @@ Seems very easy to attach an event to a button.
 matches the CSS selector .new-task. When this event is triggered by the user
 pressing enter inside the input field, our event handler function is called."
 
+____________________________________________________________________________________________________________________________________
 Todo App Step 5:
+https://www.meteor.com/tutorials/blaze/update-and-remove
 Checking off and deleting tasks
 Adding another template. Seems this one represents one task.
 I was getting angry on this task because I kept getting an error:
@@ -31,12 +35,61 @@ This is very annoying, and I find it in main.js.
 I've no idea why main.js can't import ./main.html anymore.
 The only thing I can do to keep going is to remove the import statement.
 
+____________________________________________________________________________________________________________________________________
 Todo step number 6
 https://www.meteor.com/tutorials/blaze/running-on-mobile
 
 ah this really didn't have anything to do, it was just instructions on running it on mobile.
 
+____________________________________________________________________________________________________________________________________
 Todo Step number 7
+https://www.meteor.com/tutorials/blaze/temporary-ui-state
 Temporary UI State.
 Learning to use a ReactiveDict
+Needed to run CLI meteor command.
 > meteor add reactive-dict
+
+____________________________________________________________________________________________________________________________________
+Todo Step Number 8
+https://www.meteor.com/tutorials/blaze/adding-user-accounts
+Adding user accounts:
+I really thought I was going to have to do this myself.
+I'm glad this tutorial covers this.
+
+Needed to run CLI meteor command.
+> meteor add accounts-ui accounts-password
+Changes to your project's package version selections:
+
+accounts-base          added, version 1.2.5
+accounts-password      added, version 1.1.7
+accounts-ui            added, version 1.1.8
+accounts-ui-unstyled   added, version 1.1.11
+ddp-rate-limiter       added, version 1.0.3
+email                  added, version 1.0.11
+less                   added, version 2.5.7
+localstorage           added, version 1.0.8
+npm-bcrypt             added, version 0.7.8_2
+rate-limit             added, version 1.0.3
+service-configuration  added, version 1.0.8
+session                added, version 1.1.4
+sha                    added, version 1.0.6
+srp                    added, version 1.0.7
+
+Adding two functions:
+1 Only display the new task input field to logged in users
+2 Show which user created each task
+
+____________________________________________________________________________________________________________________________________
+Todo Step number 9
+https://www.meteor.com/tutorials/blaze/security-with-methods
+Security with methods
+
+____________________________________________________________________________________________________________________________________
+Todo Step number 10
+https://www.meteor.com/tutorials/blaze/testing
+Testing
+
+____________________________________________________________________________________________________________________________________
+Todo Step number 11
+https://www.meteor.com/tutorials/blaze/next-steps
+What's next?
