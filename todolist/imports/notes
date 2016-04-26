@@ -1,3 +1,17 @@
 On the subject of the ui folder:
 You can read more about how imports work and how to structure your code in the Application Structure article of the Meteor Guide.
 https://guide.meteor.com/structure.html
+
+____________________________________________________________________________________________________________________________________
+
+Added a imports/api/tasks.
+Grabs the tasks table from mongo.
+
+The main.js file imports this file and so does body.js
+
+____________________________________________________________________________________________________________________________________
+Found this on the git hub page for this project.
+https://github.com/craigpars0061/meteor-todo
+ JavaScript 69.5%	 HTML 29.1%	 CSS 1.4%
+
+ It would be great to see if I can get this information through an api and post it on the portfolio page.

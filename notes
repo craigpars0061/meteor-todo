@@ -30,3 +30,13 @@ modules-runtime.js?hash=939c79d…:95 Uncaught Error: Cannot find module './main
 This is very annoying, and I find it in main.js.
 I've no idea why main.js can't import ./main.html anymore.
 The only thing I can do to keep going is to remove the import statement.
+
+Todo step number 6
+https://www.meteor.com/tutorials/blaze/running-on-mobile
+
+ah this really didn't have anything to do, it was just instructions on running it on mobile.
+
+Todo Step number 7
+Temporary UI State.
+Learning to use a ReactiveDict
+> meteor add reactive-dict
