@@ -1,9 +1,32 @@
 Finished;
 Todo APP step 2.
 https://www.meteor.com/tutorials/blaze/templates
+
 Todo App step 3.
 I'm trying out the Atom Text editor for this:
 https://www.meteor.com/tutorials/blaze/collections
+
 Todo App step 4:
 I really like the Atom text Editor I just wish it was more like Sublime when
 it comes to editing php files.
+https://www.meteor.com/tutorials/blaze/forms-and-events
+Attaching events to templates
+Seems very easy to attach an event to a button.
+"In our case above, we are listening to the submit event on any element that
+matches the CSS selector .new-task. When this event is triggered by the user
+pressing enter inside the input field, our event handler function is called."
+
+Todo App Step 5:
+Checking off and deleting tasks
+Adding another template. Seems this one represents one task.
+I was getting angry on this task because I kept getting an error:
+"Uncaught Error: There are multiple templates named 'task'. Each template needs a unique name."
+The trick is to remove this from body.html
+<template name="task">
+  <li>{{text}}</li>
+</template>
+Another thing I found at this point:
+modules-runtime.js?hash=939c79d…:95 Uncaught Error: Cannot find module './main.html'
+This is very annoying, and I find it in main.js.
+I've no idea why main.js can't import ./main.html anymore.
+The only thing I can do to keep going is to remove the import statement.
